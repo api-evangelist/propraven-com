@@ -64,5 +64,164 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-propraven-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://propraven.com/
+PropRaven LLC, based in Charlotte, NC, provides U.S. parcel and property intelligence by aggregating county assessor, recorder, permit, and other public records. The platform offers datasets covering ownership, values, sales, permits, and risk signals, with coverage and update dates varying by dataset and delivery channel.
+
+**Areas:** Real Estate · Data · Property Intelligence · API · US
+
+## propraven-com on APIs.io
+
+Everything profiled for propraven-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/propraven-com/](https://apis.io/providers/propraven-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (16)
+
+- [propraven-com Account API](https://apis.io/apis/propraven-com/propraven-com-account-api/) — Account-scoped usage, quota, and key-level reporting.
+- [propraven-com Coverage API](https://apis.io/apis/propraven-com/propraven-com-coverage-api/) — Data coverage statistics.
+- [propraven-com Credits API](https://apis.io/apis/propraven-com/propraven-com-credits-api/) — The Credits API from propraven-com — 2 operation(s) for credits.
+- [propraven-com Deals API](https://apis.io/apis/propraven-com/propraven-com-deals-api/) — Deal sourcing: absentee owners, property flips.
+- [propraven-com Distribution API](https://apis.io/apis/propraven-com/propraven-com-distribution-api/) — Bulk delivery metadata (Cloudflare R2, Databricks Delta Sharing). Signed-in session only; an anonymous call gets 401.
+- [propraven-com Leads API](https://apis.io/apis/propraven-com/propraven-com-leads-api/) — Lead feeds: buyable qualified target lists, priced per lead, with a free masked preview. Paid via x402 or a paid subscription.
+- [propraven-com Market API](https://apis.io/apis/propraven-com/propraven-com-market-api/) — County-level market statistics and trends.
+- [propraven-com Owners API](https://apis.io/apis/propraven-com/propraven-com-owners-api/) — Owner search, profiles, and portfolios.
+- [propraven-com Parcels API](https://apis.io/apis/propraven-com/propraven-com-parcels-api/) — Parcel lookup, owner details, permits, deeds, and risk data.
+- [propraven-com Property Intelligence API](https://apis.io/apis/propraven-com/propraven-com-property-intelligence-api/) — Default-off, account/creator-scoped descriptive signals, retained evidence and explicit scenarios. Source and use rights remain independent gates.
+- [propraven-com Search API](https://apis.io/apis/propraven-com/propraven-com-search-api/) — Geographic and filtered parcel search.
+- [propraven-com Storefront API](https://apis.io/apis/propraven-com/propraven-com-storefront-api/) — Machine Storefront: the FREE data catalog + availability discovery surface (get the field dictionary and preview a jurisdiction or a per-parcel price), and…
+- [propraven-com Verify API](https://apis.io/apis/propraven-com/propraven-com-verify-api/) — The Verify API from propraven-com — 1 operation(s) for verify.
+- [propraven-com Watch API](https://apis.io/apis/propraven-com/propraven-com-watch-api/) — The Watch API from propraven-com — 2 operation(s) for watch.
+- [propraven-com Webhooks API](https://apis.io/apis/propraven-com/propraven-com-webhooks-api/) — Webhook subscriptions and delivery history. Manage which events PropRaven pushes to your endpoints.
+- [propraven-com Zoning API](https://apis.io/apis/propraven-com/propraven-com-zoning-api/) — Zoning from the jurisdiction that issues it: the raw code as published, overlays, and ordinance-parsed attributes with a citation per value, plus honest…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Propraven Com Webhooks](https://apis.io/asyncapis/propraven-com/propraven-com-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Propraven Com Agentic Access](https://apis.io/agentic-access/propraven-com/propraven-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [IntelligenceHandoff](https://apis.io/schemas/propraven-com/propraven-com-intelligence-handoff/)
+- [IntelligenceRun](https://apis.io/schemas/propraven-com/propraven-com-intelligence-run/)
+- [OwnerCard](https://apis.io/schemas/propraven-com/propraven-com-owner-card/)
+- [Parcel](https://apis.io/schemas/propraven-com/propraven-com-parcel/)
+- [ParcelDossier](https://apis.io/schemas/propraven-com/propraven-com-parcel-dossier/)
+- [ZillowContext](https://apis.io/schemas/propraven-com/propraven-com-zillow-context/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Propraven Com Context](https://apis.io/jsonld/propraven-com/propraven-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [propraven-com API Rules](https://apis.io/rules/propraven-com/propraven-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Propraven Com Authentication](https://apis.io/security/propraven-com/propraven-com-authentication/)
+- [Propraven Com Domain Security](https://apis.io/security/propraven-com/propraven-com-domain-security/)
+- [Propraven Com Vulnerability Disclosure](https://apis.io/security/propraven-com/propraven-com-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Propraven Com Scopes](https://apis.io/scopes/propraven-com/propraven-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Propraven Com Plans Pricing](https://apis.io/plans/propraven-com/propraven-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Propraven Com Rate Limits](https://apis.io/rate-limits/propraven-com/propraven-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://propraven.com/)
+- [Documentation](https://propraven.com/docs/v1)
+- [Getting started](https://propraven.com/docs/v1)
+- [API reference](https://propraven.com/changelog)
+- [Pricing](https://propraven.com/pricing)
+- [Sign up](https://propraven.com/api/v1/agent/signup)
+- [Security](https://propraven.com/security)
+- [Terms of service](https://propraven.com/terms)
+- [Privacy policy](https://propraven.com/privacy)
+- [GitHub](https://github.com/jdw2111)
+
+## API Evangelist rating
+
+**Kin Score 67.9** — exemplar · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 70.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 67.9 |
+| Developer ergonomics | 63.6 |
+| Access clarity | 44.7 |
+
+**Agent readiness 64.8** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | yes |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 40.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/propraven-com/](https://apis.io/providers/propraven-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for propraven-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/propraven-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
